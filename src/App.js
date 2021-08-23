@@ -3,7 +3,12 @@ import React from "react";
 function App() {
   return (
     <view>
-      <text>Hello World</text>
+      <text
+      style={{
+        fontSize: 25,
+        fontWeight: "bold",
+      }}
+      >Hello World</text>
     </view>
   );
 }
